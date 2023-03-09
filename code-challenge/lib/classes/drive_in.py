@@ -1,6 +1,7 @@
 class DriveIn:
     def __init__(self,name):
         self.name = name
+        # self.screen = []
 
     @property
     def name(self):
@@ -12,3 +13,11 @@ class DriveIn:
             self._name = name
         else:
             raise Exception("Name should be a string of 1 or more character!")
+
+    def whats_playing():
+        pass
+
+    def full_house():
+        pass
+    
+
